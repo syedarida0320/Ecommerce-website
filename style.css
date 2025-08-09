@@ -1000,9 +1000,14 @@ header {
   .first-footer,
   .second-footer {
     display: flex;
-    gap: 89px;
     justify-content: flex-start;
     margin-bottom: 30px;
+  }
+  .first-footer{
+     gap: 89px;
+  }
+  .second-footer{
+    gap:59px;
   }
   .large-screen-footer {
     display: none;
@@ -1108,6 +1113,7 @@ header {
     cursor: pointer;
   }
 }
+
 
 
 
