@@ -427,7 +427,7 @@ header {
 .dress-text {
   display: flex;
   justify-content: center;
-  font-family: " integral CF bold";
+  font-family: "integral CF bold";
   font-weight: 700;
   font-size: 48px;
   padding-bottom: 30px;
@@ -940,7 +940,7 @@ header {
   .contact-help {
     background-color: #f0f0f0;
     padding: 100px 16px 30px;
-    font-family: "Satoshi", sans-serif;
+    font-family:"satoshi regular";
     margin-top: -100px;
     z-index: 0;
     position: relative;
@@ -1107,5 +1107,6 @@ header {
     cursor: pointer;
   }
 }
+
 
 
