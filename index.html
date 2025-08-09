@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOP.CO</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked@4.0.12/marked.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Banner -->
+    <div class="banner">
+      <div class="banner-container">
+        <p>
+          Sign up and get 20% off to your first order.
+          <a class="sign-up-now">Sign Up Now</a>
+        </p>
+        <span>
+          <!-- Cross Icon -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-x-icon lucide-x"
+          >
+            <path d="M18 6 6 18" />
+            <path d="m6 6 12 12" />
+          </svg>
+        </span>
+      </div>
+    </div>
+
+    <!-- Header & Navigations -->
+    <header>
+      <div class="header-container">
+        <div class="menu-icon-container">
+          <div class="menu-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-menu-icon lucide-menu"
+            >
+              <path d="M3 12h18" />
+              <path d="M3 6h18" />
+              <path d="M3 18h18" />
+            </svg>
+          </div>
+          <div class="logo">SHOP.CO</div>
+        </div>
+        <nav>
+          <ul>
+            <li class="shop-dropdown">
+              <span>Shop</span>
+              <!-- Down Icon -->
+              <svg
+                id="shop-dropdown-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-chevron-down-icon lucide-chevron-down"
+              >
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </li>
+            <li>On Sale</li>
+            <li>New Arrivals</li>
+            <li>Brands</li>
+          </ul>
+        </nav>
+        <div class="search">
+          <!-- Search Icons -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-search-icon lucide-search"
+          >
+            <path d="m21 21-4.34-4.34" />
+            <circle cx="11" cy="11" r="8" />
+          </svg>
+          <input type="text" placeholder="Search for products..." />
+        </div>
+        <div class="button-icons">
+          <!-- Card Icon -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
+          >
+            <circle cx="8" cy="21" r="1" />
+            <circle cx="19" cy="21" r="1" />
+            <path
+              d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"
+            />
+          </svg>
+          <!-- User Profile Icon -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-user-icon lucide-circle-user"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <circle cx="12" cy="10" r="3" />
+            <path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662" />
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+      <div class="info-container">
+        <div class="text-group">
+          <h1>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+          <p>
+            Browse through our diverse range of meticulously crafted garments,
+            designed to bring out your individuality and cater to your sense of
+            style.
+          </p>
+          <div>
+            <div class="show-now-button">Shop Now</div>
+          </div>
+        </div>
+        <!-- Large Screen -->
+        <ul class="stats-group">
+          <li class="stats-box">
+            <span>200+</span>
+            <p>International Brands</p>
+          </li>
+          <li class="vertical-line"></li>
+          <li class="stats-box">
+            <span>2,000+</span>
+            <p>High-Quality Products</p>
+          </li>
+          <li class="vertical-line"></li>
+          <li class="stats-box">
+            <span>30,000+</span>
+            <p>Happy Customers</p>
+          </li>
+        </ul>
+        <!-- Small Screen -->
+        <ul class="stats-group-small">
+          <li class="two-stats-box">
+            <div class="stats-box">
+              <span>200+</span>
+              <p>International Brands</p>
+            </div>
+            <div class="vertical-line"></div>
+            <div class="stats-box">
+              <span>2,000+</span>
+              <p>High-Quality Products</p>
+            </div>
+          </li>
+          <li id="small-last-stats-box" class="stats-box">
+            <span>30,000+</span>
+            <p>Happy Customers</p>
+          </li>
+        </ul>
+      </div>
+      <div class="image-container">
+        <img
+          src="./assets/main-image.jpg"
+          alt="Hero Image"
+          class="hero-image"
+        />
+        <img class="vector-1" src="./assets/Vector.png" alt="Vector 1" />
+        <img class="vector-2" src="./assets/Vector (1).png" alt="Vector 2" />
+      </div>
+    </div>
+    <!-- logo-container for large screen -->
+    <div class="main-container-2">
+      <ul>
+        <li class="brand-logo">
+          <img src="./assets/Versacee-logo.png" alt="versace-logo" />
+        </li>
+        <li class="brand-logo">
+          <img src="./assets/zara-logo.png" alt="zara-logo" />
+        </li>
+        <li class="brand-logo">
+          <img src="./assets/gucci-logo.png" alt="gucci-logo" />
+        </li>
+        <li class="brand-logo">
+          <img src="./assets/prada-logo.png" alt="prada-logo" />
+        </li>
+        <li class="brand-logo">
+          <img src="./assets/calvin-klein-logo.png" alt="calvin-klein-logo" />
+        </li>
+      </ul>
+    </div>
+    <!-- logo-container for small screen -->
+    <div class="mobile-container-2">
+      <div class="first-row">
+        <img src="./assets/Versacee-logo.png" alt="versace-logo" />
+        <img src="./assets/zara-logo.png" alt="zara-logo" />
+        <img src="./assets/gucci-logo.png" alt="gucci-logo" />
+      </div>
+
+      <div class="second-row">
+        <img src="./assets/prada-logo.png" alt="prada-logo" />
+        <img src="./assets/calvin-klein-logo.png" alt="calvin-klein-logo" />
+      </div>
+    </div>
+
+    <div class="new-arrival-container">
+      <h1 class="new">NEW ARRIVALS</h1>
+
+      <div class="products">
+        <div class="card">
+          <img src="./assets/Frame 1.png" alt="T-shirt with Tape Details" />
+          <div class="title">T-shirt with Tape Details</div>
+          <div class="rating">★★★★☆ 4.5/5</div>
+          <div class="price-row"><div class="price">$120</div></div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/Frame 2.png" alt="Skinny Fit Jeans" />
+          <div class="title">Skinny Fit Jeans</div>
+          <div class="rating">★★★☆☆ 3.5/5</div>
+          <div class="price-row">
+            <div class="price">
+              $240
+              <span class="original-price">$260</span>
+              <span class="discount">-20%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/Frame 3.png" alt="Checkered Shirt" />
+          <div class="title">Checkered Shirt</div>
+          <div class="rating">★★★★☆ 4.5/5</div>
+          <div class="price-row"><div class="price">$180</div></div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/Frame 4.png" alt="Sleeve Striped T-shirt" />
+          <div class="title">Sleeve Striped T-shirt</div>
+          <div class="rating">★★★★☆ 4.5/5</div>
+          <div class="price-row">
+            <div class="price">
+              $130
+              <span class="original-price">$160</span>
+              <span class="discount">-30%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="view-all">
+        <button>View All</button>
+      </div>
+    </div>
+
+    <div class="top-selling-container">
+      <h1 class="new">TOP SELLING</h1>
+
+      <div class="products">
+        <div class="card">
+          <img src="./assets/image1.png" alt="Vertical Striped Shirt" />
+          <div class="title">Courage Graphic T-Shirt</div>
+          <div class="rating">★★★★☆ 4.0/5</div>
+          <div class="price-row">
+            <div class="price">
+              $212
+              <span class="original-price">$232</span>
+              <span class="discount">-20%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/image2.png" alt="Courage Graphic T-Shirt" />
+          <div class="title">Vertical Striped Shirt</div>
+          <div class="rating">★★★★★ 5.0/5</div>
+          <div class="price-row"><div class="price">$145</div></div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/image3.png" alt="Loose Fit Bermuda Shorts" />
+          <div class="title">Vertical Striped Shirt</div>
+          <div class="rating">★★★★★ 5.0/5</div>
+          <div class="price-row">
+            <div class="price">$80</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/image4.png" alt="Faded Skinny Jeans" />
+          <div class="title">Vertical Striped Shirt</div>
+          <div class="rating">★★★★★ 5.0/5</div>
+          <div class="price-row"><div class="price">$210</div></div>
+        </div>
+      </div>
+
+      <div class="view-all">
+        <button>View All</button>
+      </div>
+    </div>
+
+    <div class="dress-container">
+      <div class="dress-text">BROWSE BY DRESS STYLE</div>
+
+      <div class="dress-grid">
+        <div class="dress-card-short">
+          <span class="dress-category">Casual</span>
+          <img src="./assets/casual-image.png" alt="casual dress" />
+        </div>
+
+        <div class="dress-card-long">
+          <span class="dress-category">Formal</span>
+          <img src="./assets/formal-image.png" alt="formal dress" />
+        </div>
+
+        <div class="dress-card-long">
+          <span class="dress-category">Party</span>
+          <img src="./assets/party-image.png" alt="party dress" />
+        </div>
+        <div class="dress-card-short">
+          <span class="dress-category">Gym</span>
+          <img src="./assets/gym-image.png" alt="gym outfit" />
+        </div>
+      </div>
+    </div>
+
+    <div class="customer-container">
+      <div class="customer-title">
+        OUR HAPPY CUSTOMERS
+        <div class="arrow-controls">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-arrow-left-icon lucide-arrow-left"
+          >
+            <path d="m12 19-7-7 7-7" />
+            <path d="M19 12H5" />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-arrow-right-icon lucide-arrow-right"
+          >
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
+          </svg>
+        </div>
+      </div>
+      <div class="reviews-container">
+        <div class="review-card">
+          <div class="customer-rating">★★★★★</div>
+          <div class="name">Sarah M. <span class="verified">✔️</span></div>
+          <p class="review-text">
+            "I'm blown away by the quality and style of the clothes I received
+            from Shop.co. From casual wear to elegant dresses, every piece I’ve
+            bought has exceeded my expectations."
+          </p>
+        </div>
+        <div class="review-card hidden-card">
+          <div class="customer-rating">★★★★★</div>
+          <div class="name">Alex K. <span class="verified">✔️</span></div>
+          <p class="review-text">
+            "Finding clothes that align with my personal style used to be a
+            challenge until I discovered Shop.co. The range of options they
+            offer is truly remarkable, catering to a variety of tastes and
+            occasions."
+          </p>
+        </div>
+        <div class="review-card hidden-card">
+          <div class="customer-rating">★★★★★</div>
+          <div class="name">James L. <span class="verified">✔️</span></div>
+          <p class="review-text">
+            "As someone who's always on the lookout for unique fashion pieces,
+            I'm thrilled to have stumbled upon Shop.co. The selection of clothes
+            is not only diverse but also on-point with the latest trends."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-container">
+      <div class="update">
+        <div class="update-text">STAY UPTO DATE ABOUT OUR LATEST OFFERS</div>
+        <div class="update-email">
+          <form class="email">
+            <span class="email-icon">✉</span>
+            <input type="email" placeholder="Enter your email address" />
+          </form>
+          <div class="subscribe-button">
+            <button>Subscribe to Newsletter</button>
+          </div>
+        </div>
+      </div>
+      <div class="contact-help">
+        <div class="footer">
+          <div class="footer-section brand">
+            <h2>SHOP.CO</h2>
+            <p>
+              We have clothes that suits your style and which you're proud to
+              wear. From women to men.
+            </p>
+            <div class="social-icons">
+              <span id="twitter-icon"
+                ><a href="https://x.com"
+                  ><img src="./assets/twitter-icon.png" alt="twitter-icon" /></a
+              ></span>
+
+              <span id="facebook-icon"
+                ><a href="https://facebook.com"
+                  ><img
+                    src="./assets/facebook-icon.png"
+                    alt="facebook-icon" /></a
+              ></span>
+
+              <span id="instagram-icon"
+                ><a href="https://instagram.com"
+                  ><img
+                    src="./assets/instagram-icon.png"
+                    alt="instagram-icon" /></a
+              ></span>
+
+              <span id="git-hub-icon"
+                ><a href="https://github.com"
+                  ><img src="./assets/git hub.png" alt="Github icon link" /></a
+              ></span>
+            </div>
+          </div>
+          <!------------- large screen----------->
+
+          <div class="footer-section large-screen-footer">
+            <h4>COMPANY</h4>
+            <p>About</p>
+            <p>Features</p>
+            <p>Works</p>
+            <p>Career</p>
+          </div>
+
+          <div class="footer-section large-screen-footer">
+            <h4>HELP</h4>
+            <p>Customer Support</p>
+            <p>Delivery Details</p>
+            <p>Terms & Conditions</p>
+            <p>Privacy Policy</p>
+          </div>
+
+          <div class="footer-section large-screen-footer">
+            <h4>FAQ</h4>
+            <p>Account</p>
+            <p>Manage Deliveries</p>
+            <p>Orders</p>
+            <p>Payments</p>
+          </div>
+
+          <div class="footer-section large-screen-footer">
+            <h4>RESOURCES</h4>
+            <p>Free eBooks</p>
+            <p>Development Tutorial</p>
+            <p>How to - Blog</p>
+            <p>Youtube Playlist</p>
+          </div>
+
+          <!------------small screen------------->
+          <div class="first-footer">
+            <div class="footer-section">
+              <h4>COMPANY</h4>
+              <p>About</p>
+              <p>Features</p>
+              <p>Works</p>
+              <p>Career</p>
+            </div>
+
+            <div class="footer-section">
+              <h4>HELP</h4>
+              <p>Customer Support</p>
+              <p>Delivery Details</p>
+              <p>Terms & Conditions</p>
+              <p>Privacy Policy</p>
+            </div>
+          </div>
+          <div class="second-footer">
+            <div class="footer-section">
+              <h4>FAQ</h4>
+              <p>Account</p>
+              <p>Manage Deliveries</p>
+              <p>Orders</p>
+              <p>Payments</p>
+            </div>
+
+            <div class="footer-section">
+              <h4>RESOURCES</h4>
+              <p>Free eBooks</p>
+              <p>Development Tutorial</p>
+              <p>How to - Blog</p>
+              <p>Youtube Playlist</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>Shop.co &copy; 2000-2023, All Rights Reserved</p>
+          <div class="payment-icons">
+            <span
+              ><a href="#"><img src="./assets/Visa.png" alt="visa image" /></a
+            ></span>
+            <span
+              ><a href="https://b2b.mastercard.com/membership-login/"
+                ><img src="./assets/Mastercard.png" alt="master-card" /></a
+            ></span>
+            <span
+              ><a href="https://www.paypal.com"
+                ><img src="./assets/Paypal.png" alt="pay pal" /></a
+            ></span>
+            <span
+              ><a href="#"><img src="./assets/apple-pay.png" alt="e-pay" /></a
+            ></span>
+            <span
+              ><a href="#"><img src="./assets/G Pay.png" alt="G-pay" /></a
+            ></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
